@@ -1,0 +1,33 @@
+body{
+    margin :"0px";
+    padding :"0px";
+}
+.card{
+    margin-top: 30px;
+    display: flex;
+}
+.profile-card{
+    width :450px;
+    height :"100%";
+    border: 1px solid #ccc;
+    border-radius :"10px";
+    /* box-shadow :"0px 0px 10px #000000"; */
+    background-color :"#ffffff";
+    margin-left :100px;
+    padding :20px;
+}
+.profile-card > button {
+    margin: 10px;
+}
+.profile-card > button + button + div> button{
+    width: 250px;
+    height: 50px;
+}
+img{
+    justify-content: center;
+    /* text-align: center; */
+    margin-left: 100px;
+}
+.todo{
+    margin-left: 20px;
+}
